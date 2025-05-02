@@ -1,18 +1,30 @@
+@import './custom-swiper.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-input[type='number'] {
-  -moz-appearance: textfield;
-  appearance: textfield;
+.bg-dark-purple-gradient {
+  background: linear-gradient(90deg, #F5F1FD 0%, #DBCFF0 100%);
 }
 
-input[type='number']::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+.bg-purple-gradient {
+  background: linear-gradient(180deg, #7B62A7 58%, #654F8B 100%);
 }
 
-input[type='number']::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+.bg-card-primary {
+  background: linear-gradient(-225deg, white 0%, #e7def9 80%, #F5F1FD 100%);
+}
+
+.bg-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 2rem 0;
+  background-image: url('/avatar-thinking.svg');
+  background-repeat: space no-repeat;
+  background-size: auto 4rem;
+  background-position: bottom center;
 }

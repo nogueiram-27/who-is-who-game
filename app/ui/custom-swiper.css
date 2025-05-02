@@ -1,0 +1,20 @@
+.swiper {
+  width: 18rem;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.swiper-slide:nth-child(odd) {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.swiper-slide:nth-child(even) {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
