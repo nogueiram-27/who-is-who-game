@@ -20,7 +20,7 @@ const Score: React.FC = () => {
 
 export default function Page() {
   return (
-      <div className='mx-auto max-h-80 xl:max-h-[32rem] overflow-auto xl:text-xl p-6 bg-card-primary border-2 border-violet-400 shadow-md rounded-lg max-w-3xl'>
+      <div className='mx-auto max-h-96 xl:max-h-[32rem] overflow-auto xl:text-xl p-6 bg-card-primary border-2 border-violet-400 shadow-md rounded-lg max-w-3xl'>
         <Suspense><Score /></Suspense>
         Agora vem o grande <em>plot twist</em>: mais pontos equivalem a um maior desafio!<span className='flex items-center gap-x-1'>Muaha. Muaha. <Image src="/emoji-devil-smile.svg" width={24} height={24} alt="" className=""/></span>
         <br/>Vamos lá então:

@@ -73,13 +73,13 @@ const Card: React.FC<{riddle: string; solution?: string; id?: number; index?:num
       </div>
       <div className='flex justify-center items-center gap-x-12 px-6'>
         <span 
-          className='flex items-center justify-center p-1.5 border-2 rounded-full border-purple-500 w-12 cursor-pointer'
+          className='flex items-center justify-center p-1.5 border-2 rounded-full border-purple-500 w-12 cursor-pointer hover:bg-purple-300'
           onClick={() => updateScore(curentScore + 3)}
         >
           <Image src="/check.svg" width={800} height={800} alt="" className="w-12"/>
         </span>
         <span 
-          className='flex items-center justify-center p-1.5 border-2 rounded-full border-purple-500 w-12 cursor-pointer'
+          className='flex items-center justify-center p-1.5 border-2 rounded-full border-purple-500 w-12 cursor-pointer hover:bg-purple-300'
           onClick={() => updateScore(curentScore - 1)}
         >
           <Image src="/cross.svg" width={800} height={800} alt="" className="w-12"/>
